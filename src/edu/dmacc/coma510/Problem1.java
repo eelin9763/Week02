@@ -6,7 +6,7 @@ public class Problem1 {
         int numberOfWalks = 4;
         int numberOfHits = 24;
 
-        int calculatedBattingAverage = numberOfHits / (numberOfPlateAppearances - numberOfWalks);
+        double calculatedBattingAverage = (double)(numberOfHits) / (double)(numberOfPlateAppearances - numberOfWalks);
 
         System.out.println(calculatedBattingAverage); // 0.25
     }
